@@ -1,0 +1,77 @@
+        <div class="purchase-tickets">
+          <h2>Purchase Your Ticket</h2>
+          <form action="post">
+            <div>
+              <label for="t-number">
+                Number of Tickets
+              </label>
+              <select name="number of tickets" id="t-number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+            <div>
+              <label for="t-location">Seating Location</label>
+              <select name="seating location" id="t-location">
+                <option value="section-100">Section 100 - $10</option>
+                <option value="section-101">Section 101 - $8</option>
+                <option value="section-102">Section 102 - $8</option>
+                <option value="section-103">Section 103 - $8</option>
+                <option value="section-104">Section 104 - $8</option>
+                <option value="section-105">Section 105 - $5</option>
+                <option value="section-106">Section 106 - $5</option>
+                <option value="section-107">Section 107 - $5</option>
+                <option value="section-108">Section 108 - $5</option>
+              </select>
+            </div>
+            <hr>
+            <h3>Billing Address</h3>
+            <div>
+              <label for="t-billing-first-name">First Name</label>
+              <input class="input_xxlarge" type="text" id="t-billing-first-name">
+            </div>
+            <div>
+              <label for="t-billing-last-name">Last Name</label>
+              <input class="input_xxlarge" type="text" id="t-billing-last-name">
+            </div>
+            <div>
+              <fieldset>
+                <legend>Address</legend>
+                <div>
+                  <label for="t-billing-address-1">Address</label>
+                  <input class="input_xxlarge" type="text" id="t-billing-address-1">
+                </div>
+                <div>
+                  <label for="t-billing-address-2">Address</label>
+                  <input class="input_xxlarge" type="text" id="t-billing-address-2">
+                </div>
+                <div class="t-city">
+                  <label for="t-billing-city">City</label>
+                  <input class="input_medium" type="text" id="t-billing-city">
+                </div>
+                <div class="t-state">
+                  <label for="t-billing-state">State</label>
+                  <input class="input_tiny" type="text" id="t-billing-state">
+                </div>
+                <div class="t-zip">
+                  <label for="t-billing-zip">Zip</label>
+                  <input class="input_small" type="text" id="t-billing-zip">
+                </div>
+                <div>
+                  <label for="t-billing-tel">Telephone Number <i>(optional)</i></label>
+                  <input class="input_xxlarge" type="text" id="t-billing-tel">
+                </div>
+              </fieldset>
+            </div>
+            <hr>
+            <div>
+              <button type="submit">Contine to Purchase</button>
+            </div>
+          </form>
+        </div>

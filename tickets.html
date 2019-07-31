@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Buy Tickets for Happy Cog Softball</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7726032/662002/css/fonts.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/formalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body class="site-schedule">
+<!--[if lt IE 7]>
+  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="page-wrap">
+
+    <header class="site-header">
+      <div class="masthead">
+        <h1>Happy Cog Soft Ball Club</h1>
+      </div>
+      <div class="nav">
+        <nav>
+          <header class="visuallyhidden">
+            <h1>Site Navigation</h1>
+          </header>
+          <ul class="site-nav-list">
+            <li class="site-home"><a href="/">Home</a></li>
+            <li class="site-team"><a href="team.html">Team</a></li>
+            <li class="site-schedule"><a href="tickets.html">Schedule</a></li>
+            <li class="site-blog"><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section>
+      <header class="selected-game">
+          <h1>Happy Cog at Stylesheet Dodgers</h1>
+          <p>November 3, 2013<br> Mijingo Field<br> 7:30 PM</p>
+      </header>
+      
+        <div class="l-primary-column">
+        <section class="purchase-tickets">
+          <header>
+            <h1 class="h2">Purchase Your Ticket</h1>
+          </header>
+          <form action="post">
+            <section>
+              <header class="visuallyhidden">
+                <h1>Desired Seats</h1>
+              </header>
+              <div>
+                <label for="t-number">
+                  Number of Tickets
+                </label>
+                <select name="number of tickets" id="t-number">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+              </div>
+              <div>
+                <label for="t-location">Seating Location</label>
+                <select name="seating location" id="t-location">
+                  <option value="section-100">Section 100 - $10</option>
+                  <option value="section-101">Section 101 - $8</option>
+                  <option value="section-102">Section 102 - $8</option>
+                  <option value="section-103">Section 103 - $8</option>
+                  <option value="section-104">Section 104 - $8</option>
+                  <option value="section-105">Section 105 - $5</option>
+                  <option value="section-106">Section 106 - $5</option>
+                  <option value="section-107">Section 107 - $5</option>
+                  <option value="section-108">Section 108 - $5</option>
+                </select>
+              </div>
+            </section>
+            <hr>
+            <h2 class="h3">Billing Address</h2>
+            <div>
+              <label for="t-billing-first-name">First Name</label>
+              <input class="input_xxlarge" type="text" id="t-billing-first-name" required>
+            </div>
+            <div>
+              <label for="t-billing-last-name">Last Name</label>
+              <input class="input_xxlarge" type="text" id="t-billing-last-name" required>
+            </div>
+            <div>
+              <label for="t-billing-email">Email Address</label>
+              <input placeholder="@" class="input_xxlarge" type="email" id="t-billing-last-name" required>
+            </div>
+            <div>
+              <fieldset>
+                <legend>Address</legend>
+                <div>
+                  <label for="t-billing-address-1">Address</label>
+                  <input class="input_xxlarge" type="text" id="t-billing-address-1" required>
+                </div>
+                <div>
+                  <label for="t-billing-address-2">Address <i>(optional)</i></label>
+                  <input placeholder="Apartment or Suite Number" class="input_xxlarge" type="text" id="t-billing-address-2">
+                </div>
+                <div class="t-city">
+                  <label for="t-billing-city">City</label>
+                  <input class="input_medium" type="text" id="t-billing-city" required>
+                </div>
+                <div class="t-state">
+                  <label for="t-billing-state">State</label>
+                  <input class="input_tiny" type="text" id="t-billing-state" required>
+                </div>
+                <div class="t-zip">
+                  <label for="t-billing-zip">Zip</label>
+                  <input class="input_small" type="text" id="t-billing-zip" required>
+                </div>
+                <div>
+                  <label for="t-billing-tel">Telephone Number <i>(optional)</i></label>
+                  <input class="input_xxlarge" type="tel" id="t-billing-tel">
+                </div>
+              </fieldset>
+            </div>
+            <hr>
+            <div>
+              <button type="submit">Contine to Purchase</button>
+            </div>
+          </form>
+        </section>
+        </div>
+      
+      </section>
+      
+      <div class="l-secondary-column">
+        <aside class="upcoming-game-feature">
+          <header>
+            <h1 class="h2">Other Games</h1>
+          </header>
+
+          <div class="upcoming-games-list">
+            <article>
+              <header>
+                <h1 class="h3"><a href=""><b>Happy Cog</b> at <i>Stylesheet Dodgers</i></a></h1>
+              </header>
+              <p>
+                November 3, 2013<br>
+                Mijingo Field<br>
+                7:30 PM
+              </p>
+              <footer>
+                <p><a class="button" href="">Buy Tickets</a></p>
+              </footer>
+            </article>
+            <article>
+              <header>
+                <h3><a href=""><b>Happy Cog</b> at <i>Semantics Hounds</i></a></h3>
+              </header>
+              <p>
+                November 10, 2013<br>
+                HTML5 Stadium<br>
+                7:30 PM
+              </p>
+              <footer>
+                <p><a class="button" href="">Buy Tickets</a></p>
+              </footer>
+            </article>
+            <article>
+              <header>
+                <h1 class="h3"><a href=""><b>Happy Cog</b> at <i>Semantics Hounds</i></a></h1>
+              </header>
+              <p>
+                November 10, 2013<br>
+                HTML5 Stadium<br>
+                7:30 PM
+              </p>
+              <footer>
+                <p><a class="button" href="">Buy Tickets</a></p>
+              </footer>
+            </article>
+          </div>
+
+        </aside>      </div>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Copyright 2013, Happy Cog</p>
+      <nav>
+        <header class="visuallyhidden">
+          <h1>Site Navigation</h1>
+        </header>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/team.html">Team</a></li>
+          <li><a href="/tickets.html">Schedule</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
